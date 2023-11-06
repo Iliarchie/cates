@@ -1,0 +1,302 @@
+@media (max-width: 1200px) {
+  .banner-hero__slider .swiper {
+    max-width: 680px;
+    justify-content: center;
+  }
+
+  .banner-hero__item {
+    width: 265px;
+    min-height: 380px;
+    padding: 0;
+  }
+
+  .swiper-slide__img {
+    max-width: 100%;
+    min-height: 380px;
+  }
+
+  .categories__item {
+    width: 320px;
+  }
+
+  .catalog-list__item {
+    width: 240px;
+  }
+
+  .catalog-list__item-title {
+    font-size: 15px;
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .catalog .catalog-aside {
+    width: 240px;
+  }
+
+  .catalog .catalog-aside {
+    display: none;
+  }
+
+  .catalog-list__item {
+    width: 320px;
+  }
+
+  .product-page__inner {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+    justify-content: start;
+    gap: 0;
+  }
+}
+
+@media (max-width: 1010px) {
+  .banner-hero__item {
+    display: none;
+  }
+
+  .banner-hero__inner {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .swiper-slide__img {
+    height: auto;
+  }
+
+  .swiper-slide__img {
+    max-width: 100%;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .header__address {
+    padding: 0 30px 0 0;
+  }
+
+  .header__top-menu {
+    display: block;
+  }
+
+  .menu-categories {
+    display: none;
+  }
+
+  .menu-mobile__line {
+    display: flex;
+    gap: 4px;
+  }
+
+  .search__tabs {
+    width: 1000px;
+  }
+
+  .search__tabs-mobile {
+    overflow-x: scroll;
+    padding: 12px 0;
+  }
+
+  .categories__inner--title {
+    font-size: 16px;
+  }
+
+  .tabs-mobile {
+    overflow-x: scroll;
+    padding: 5px 0;
+  }
+
+  .tabs {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 990px) {
+  .catalog .catalog-filter {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__address {
+    display: none;
+  }
+
+  .menu-mobile__line {
+    overflow: scroll;
+  }
+
+  .banner-hero__inner {
+    max-width: 480px;
+  }
+
+  .menu-mobile__line-link {
+    font-size: 14px;
+  }
+
+  .banner-hero__slider .swiper {
+    max-width: 480px;
+    height: 300px;
+  }
+
+  .categories__inner {
+    justify-content: center;
+  }
+
+  .categories__item {
+    width: 331px;
+  }
+
+  .catalog-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 510px) {
+  .banner-hero {
+    height: 650px;
+  }
+
+  .banner-hero__inner {
+    max-width: 331px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-hero__slider .swiper {
+    max-width: 331px;
+    height: 200px;
+    margin: 0 0 22px 0;
+  }
+
+  .swiper-slide__img {
+    width: 331px;
+    min-height: 200px;
+  }
+
+  .banner-hero__item {
+    display: block;
+    width: 331px;
+  }
+
+  .search__content-button {
+    display: none;
+  }
+
+  .search__content-loop {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .products .swiper__slide-title {
+    font-size: 16px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-top .title-input {
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-top__title {
+    padding: 12px 0 0 0;
+  }
+
+  .footer-social {
+    margin: 32px 0 0 0;
+  }
+
+  .footer-top__item {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    height: 50px;
+    padding: 0;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-form__button {
+    display: none;
+  }
+
+  .footer-form__input {
+    width: 100%;
+    padding: 12px 0 12px 24px;
+    margin: 0 0 12px 0;
+  }
+
+  .footer-form__loop {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+  }
+
+  .catalog__items-filter {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 22px 0;
+  }
+
+  .paginations-list {
+    gap: 5px;
+  }
+
+  .product-page__title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .product-page__code {
+    text-align: center;
+  }
+
+  .product-page__static {
+    justify-content: center;
+  }
+
+  .product-page__tabs-title {
+    font-size: 16px;
+  }
+
+  .product-page__list-item span {
+    font-size: 14px;
+  }
+
+  .product-page__tabs-link {
+    margin: 12px 0 22px 0;
+  }
+
+  .product-page__tabs-button {
+    font-size: 12px;
+    padding: 10px 26px;
+    margin: 0 0 22px 0;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+}

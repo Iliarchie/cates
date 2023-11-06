@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page-padding {
+  padding: 0 0 70px 0;
+}
+
+/* Links */
+
+/* Common */
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+  display: inline-block;
+  color: inherit;
+}
+
+aside,
+nav,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+button,
+input,
+select {
+  outline: none;
+  border: none;
+}
+
+[class*="container"] {
+  max-width: 1200px;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.popular-hidden {
+  display: none;
+}
+
+.title {
+  color: #2f3035;
+  font-family: monospace;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
